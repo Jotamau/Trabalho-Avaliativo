@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.index {
+  overflow: hidden;
+}
+
+header {
+  background-color: #360d4de7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.logo-container img {
+  height: 80px;
+  margin-left: 120px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav .material-symbols-outlined {
+  font-size: 28px;
+  margin-left: 40px;
+
+}
+
+.banner {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(../assets/bgacai.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(30%);
+}
+
+.banner-titulo {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: -550px;
+}
+
+.banner-titulo h1 {
+  font-size: 70px;
+  color: white;
+  font-family: 'Lobster', sans-serif;
+}
+
+.banner-titulo p {
+  font-size: 35px;
+  color: #a5c160;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 300;
+}
+
+.banner-titulo button {
+  margin-top: 80px;
+  width: 160px;
+  height: 50px;
+  background-color: #a5c160;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+}
+
+.titulo-cardapio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.titulo-cardapio h1 {
+  font-size: 50px;
+  font-family: 'Lobster', sans-serif;
+  color: #360d4de7;
+  margin-bottom: 20px;
+}
+
+.titulo-cardapio p {
+  color: #a5c160;
+  font-size: 20px;
+}
+
+.acai-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 20px;
+}
+
+.acai-card {
+  width: 300px;
+  margin: 20px;
+  background-color: #5e09661c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.acai-card img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.acai-card-content {
+  padding: 20px;
+}
+
+.acai-card h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+}
+
+.acai-card p {
+  color: #666;
+  text-align: center;
+}
+
+.acai-card button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #a5c160;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.contato-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  color: #360d4de7;
+}
+
+.contato-container h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato-form label {
+  margin-bottom: 8px;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.contato-form button {
+  padding: 12px;
+  background-color: #a5c160;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 230px;
+
+}
+
+
+
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../imagens/bglogin.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-card {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px;
+  color: #360d4de7;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-card button {
+  width: 80%;
+  padding: 10px;
+  background-color: #a5c160;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
